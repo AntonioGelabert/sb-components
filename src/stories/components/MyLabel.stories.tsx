@@ -33,6 +33,12 @@ export const Secondary = Template.bind({});
      size: 'h1',
      fontColor: '#5517ac'
  }
+ export const CustomBackgroundColor = Template.bind({});
+ CustomBackgroundColor.args = {
+     size: 'h1',
+     fontColor: 'white',
+    backgroundColor: 'black' 
+ }
  //CustomFontColor
  // fontColor: #5517ac
  // size: h1
